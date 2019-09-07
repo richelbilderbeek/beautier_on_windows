@@ -26,7 +26,7 @@ build_script:
 
 test_script:
   - # travis-tool.sh run_tests
-  - ./scripts/beautier_self_check
+  - Rscript scripts/beautier_self_check.R
 
 on_failure:
   - 7z a failure.zip *.Rcheck\*
