@@ -20,7 +20,8 @@ build_script:
   - travis-tool.sh install_github ropensci/beautier
 
 test_script:
-  - travis-tool.sh run_tests
+  - # travis-tool.sh run_tests
+  - ./scripts/beautier_self_check
 
 on_failure:
   - 7z a failure.zip *.Rcheck\*
