@@ -17,3 +17,5 @@ create_beast2_input_file_from_model(
 
 library(testthat)
 expect_true(file.exists(output_filename))
+
+print("Self-test passed")
