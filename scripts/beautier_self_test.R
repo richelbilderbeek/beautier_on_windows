@@ -2,6 +2,11 @@
 
 library(beautier)
 
+
+print("Self-testing beautier")
+
+print(sessionInfo())
+
 print(packageVersion("beautier"))
 
 # Get an example FASTA file
