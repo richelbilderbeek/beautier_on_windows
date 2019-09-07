@@ -18,6 +18,12 @@ print("--------------------------")
 
 print(packageVersion("beautier"))
 
+print("--------------------------")
+print("Show functions in package ")
+print("--------------------------")
+
+print(lsf.str("package:beautier"))
+
 print("---------------")
 print("Start self-test")
 print("---------------")
