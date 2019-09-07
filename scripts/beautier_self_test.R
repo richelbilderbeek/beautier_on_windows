@@ -2,7 +2,6 @@
 
 library(beautier)
 
-
 print("Self-testing beautier")
 
 print(sessionInfo())
@@ -16,7 +15,8 @@ input_filename <- get_fasta_filename()
 output_filename <- tempfile()
 
 # Use the default BEAUti settings to create a BEAST2 input file
-create_beast2_input_file_from_model(
+
+beautier::create_beast2_input_file_from_model(
   input_filename,
   output_filename,
   inference_model = create_inference_model()
