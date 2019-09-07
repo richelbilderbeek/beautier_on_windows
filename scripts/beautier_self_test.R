@@ -2,6 +2,8 @@
 
 library(beautier)
 
+print(packageVersion("beautier"))
+
 # Get an example FASTA file
 input_filename <- get_fasta_filename()
 
