@@ -7,3 +7,4 @@ Branch   | Status
 ![](pics/beautier_on_windows_logo_small.jpg)
 
 Verify [the beautier R package](https://github.com/ropensci/beautier) runs on Windows
+
