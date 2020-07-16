@@ -21,8 +21,6 @@ VignetteBuilder: knitr
 URL: https://github.com/ropensci/beautier
 BugReports: https://github.com/ropensci/beautier/issues
 Imports:
-    beautier,
-    testthat
 Suggests:
 Language: en-US
 Encoding: UTF-8
