@@ -8,3 +8,4 @@ Branch   | Status
 
 Verify [the beautier R package](https://github.com/ropensci/beautier) runs on Windows
 
+ 
