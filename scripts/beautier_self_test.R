@@ -1,32 +1,32 @@
 # beautier self-testing script
 
-print("=====================")
-print("Self-testing beautier")
-print("=====================")
+message("=====================")
+message("Self-testing beautier")
+message("=====================")
 
 library(beautier)
 
-print("------------")
-print("Session info")
-print("------------")
+message("------------")
+message("Session info")
+message("------------")
 
-print(sessionInfo())
+message(sessionInfo())
 
-print("--------------------------")
-print("beautier's package version")
-print("--------------------------")
+message("--------------------------")
+message("beautier's package version")
+message("--------------------------")
 
-print(packageVersion("beautier"))
+message(packageVersion("beautier"))
 
-print("--------------------------")
-print("Show functions in package ")
-print("--------------------------")
+message("--------------------------")
+message("Show functions in package ")
+message("--------------------------")
 
-print(lsf.str("package:beautier"))
+message(lsf.str("package:beautier"))
 
-print("---------------")
-print("Start self-test")
-print("---------------")
+message("---------------")
+message("Start self-test")
+message("---------------")
 
 # Get an example FASTA file
 input_filename <- get_fasta_filename()
@@ -45,6 +45,6 @@ beautier::create_beast2_input_file_from_model(
 library(testthat)
 expect_true(file.exists(output_filename))
 
-print("============================")
-print("Self-test of beautier passed")
-print("============================")
+message("============================")
+message("Self-test of beautier passed")
+message("============================")
