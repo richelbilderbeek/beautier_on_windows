@@ -23,6 +23,7 @@ environment:
 
 build_script:
   - travis-tool.sh install_deps
+  - travis-tool.sh install_r devtools
 
 test_script:
   - Rscript scripts/beautier_self_test.R
