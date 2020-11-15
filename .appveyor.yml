@@ -22,8 +22,7 @@ environment:
     USE_RTOOLS: true
 
 build_script:
-  - travis-tool.sh install_github r-lib/testthat
-  - travis-tool.sh install_github ropensci/beautier
+  - travis-tool.sh install_deps
 
 test_script:
   - Rscript scripts/beautier_self_test.R
